@@ -55,8 +55,8 @@
 		C39D57822AE02484005D7E83 /* Swift_POP */ = {
 			isa = PBXGroup;
 			children = (
+				C39D57982AE02A79005D7E83 /* Screen */,
 				C39D57942AE02504005D7E83 /* Models */,
-				C39D57932AE024F9005D7E83 /* Screen */,
 				C39D57832AE02484005D7E83 /* Swift_POPApp.swift */,
 				C39D57872AE0248B005D7E83 /* Assets.xcassets */,
 				C39D57892AE0248B005D7E83 /* Preview Content */,
@@ -84,9 +84,33 @@
 		C39D57942AE02504005D7E83 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C39D57992AE02A85005D7E83 /* Shape */,
 				C39D57952AE02515005D7E83 /* SampleProtocols.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C39D57972AE02A5C005D7E83 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				C39D57932AE024F9005D7E83 /* Screen */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		C39D57982AE02A79005D7E83 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C39D57972AE02A5C005D7E83 /* Shape */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		C39D57992AE02A85005D7E83 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
